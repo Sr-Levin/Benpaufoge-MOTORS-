@@ -8,14 +8,17 @@
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       color: white;
-      background: url('https://i.imgur.com/r9B3i2F.jpg') no-repeat center center fixed;
+      background: url('https://images.unsplash.com/photo-1601924638867-3ec7f2109684') no-repeat center center fixed;
       background-size: cover;
     }
     .overlay {
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.75);
       padding: 40px;
       text-align: center;
       height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     h1 {
       font-size: 3em;
@@ -24,7 +27,6 @@
     }
     p {
       font-size: 1.5em;
-      color: white;
     }
     .btn {
       margin-top: 30px;
@@ -36,6 +38,7 @@
       font-size: 1em;
       cursor: pointer;
       transition: 0.3s;
+      text-decoration: none;
     }
     .btn:hover {
       background-color: #b30000;
@@ -46,7 +49,7 @@
   <div class="overlay">
     <h1>BenPauFoge Motors</h1>
     <p>Donde los motores vuelven a rugir</p>
-    <button class="btn">Entrar al sistema</button>
+    <a href="/dashboard" class="btn">Entrar al sistema</a>
   </div>
 </body>
 </html>
