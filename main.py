@@ -9,13 +9,14 @@ WEBHOOK_URL = 'https://discord.com/api/webhooks/1391203448632115323/iIpYNhK7t0G9
 def enviar_a_discord(empleado, fecha, vehiculo, trabajo):
     embed = {
         "title": "🛠️ REPORTE DE TRABAJO DEL ESTADO 💸 PAGO INMEDIATO 💸",
+
+        "title": "📸 Foto adjunta: (subir captura del trabajo realizado en RP)",
         "color": 15158332,
         "fields": [
             {"name": "👨‍🔧 Empleado", "value": empleado, "inline": True},
             {"name": "📅 Fecha", "value": fecha, "inline": True},
             {"name": "🚗 Vehículo", "value": vehiculo, "inline": True},
             {"name": "📦 Trabajo realizado", "value": trabajo, "inline": False}
-             "title": "📸 Foto adjunta: (subir captura del trabajo realizado en RP)",
         ]
     }
     data = {"embeds": [embed]}
