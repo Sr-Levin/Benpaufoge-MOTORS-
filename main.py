@@ -4,8 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-# Cambia esto por tu URL real de webhook
-WEBHOOK_URL = 'https://discord.com/api/webhooks/1391203448632115323/iIpYNhK7t0G9JmryTXmB2eXK6rEgkQC71RO6llw7hqRClhzqtAVbH_xW6XHFIdA1rZ4s'
+WEBHOOK_URL = 'https://discord.com/api/webhooks/tu_webhook_aqui'
 
 def enviar_a_discord(empleado, fecha, vehiculo, trabajo):
     embed = {

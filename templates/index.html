@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Reporte de Trabajo - BenPauFoge</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h2>Formulario de Reporte de Trabajo</h2>
-    <form action="/reporte" method="POST">
-        <input type="text" name="empleado" placeholder="Nombre del empleado" required><br><br>
-        <input type="text" name="fecha" placeholder="Fecha (DD/MM/AAAA)" required><br><br>
-        <input type="text" name="vehiculo" placeholder="Vehículo utilizado" required><br><br>
-        <input type="text" name="trabajo" placeholder="Trabajo realizado" required><br><br>
-        <button type="submit">Enviar Reporte</button>
-    </form>
+    <div class="container">
+        <h1>🛠️ Reporte de Trabajo</h1>
+        <form action="/reporte" method="POST">
+            <input type="text" name="empleado" placeholder="👨‍🔧 Empleado" required>
+            <input type="text" name="fecha" placeholder="📅 Fecha (DD/MM/AAAA)" required>
+            <input type="text" name="vehiculo" placeholder="🚗 Vehículo utilizado" required>
+            <input type="text" name="trabajo" placeholder="📦 Trabajo realizado" required>
+            <button type="submit">Enviar Reporte</button>
+        </form>
+    </div>
 </body>
 </html>

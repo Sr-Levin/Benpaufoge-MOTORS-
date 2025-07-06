@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1617531653317-b68c9370d4c9') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2rem;
+    max-width: 400px;
+    margin: 10% auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #ff4b4b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+button {
+    background-color: #e63946;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d62828;
+}
