@@ -5,8 +5,13 @@ body {
     background: url('https://images.unsplash.com/photo-1617531653317-b68c9370d4c9') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
+    color: 52ff33;
 }
+body{
+    background-color: #52ff33; 
+
+}
+
 
 .container {
     background-color: rgba(0, 0, 0, 0.75);
