@@ -8,7 +8,7 @@ WEBHOOK_URL = 'https://discord.com/api/webhooks/tu_webhook_aqui'
 
 def enviar_a_discord(empleado, fecha, vehiculo, trabajo):
     embed = {
-        "title": "🛠️ REPORTE DE TRABAJO: ",
+        "title": "🛠️ REPORTE DE TRABAJO:",
         "color": 15158332,
         "fields": [
             {"name": "👨‍🔧 Empleado", "value": empleado, "inline": True},
