@@ -2,21 +2,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('file:///G:/GT-O_Taller.png') no-repeat center center fixed;
+    background: url('https://media.discordapp.net/attachments/1203020224295862343/1391239890896949268/horizontal-banner-template-on-car-repairs-logo-vector-16069745.jpg?ex=686b2c9d&is=6869db1d&hm=b6a3bbea8eeb3af0b41b25cb78b3ab9fab874763007047ae0db6d5351adbd7f0&=&format=webp') no-repeat center center fixed;
     background-size: cover ;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: White;
-
-.imagen-ajustada {
-            width: 100%;      
-            height: auto;    
-            max-width: 600px; 
-            display: block;
-            margin: 20px
+    color: Green;
 }
 
 .cover {
