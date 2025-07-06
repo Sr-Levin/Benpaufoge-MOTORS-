@@ -15,6 +15,7 @@ def enviar_a_discord(empleado, fecha, vehiculo, trabajo):
             {"name": "📅 Fecha", "value": fecha, "inline": True},
             {"name": "🚗 Vehículo", "value": vehiculo, "inline": True},
             {"name": "📦 Trabajo realizado", "value": trabajo, "inline": False}
+            {"📸 Foto adjunta: (subir captura del trabajo realizado en RP)"}
         ]
     }
     data = {"embeds": [embed]}
